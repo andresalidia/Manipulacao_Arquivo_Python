@@ -1,0 +1,6 @@
+Essa � uma mensagem com o m�todo write()
+
+
+Isso � para mostrar que tamb�m posso colocar mensagens em uma variavel e depois escrever ela no arquivo
+Nota importante, esse comando vai subescrever tudo que ja estiver no arquivo,
+ ou seja apaga tudo que j� estava escrito antes e escreve essa nova mensagem.

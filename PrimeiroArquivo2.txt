@@ -1,0 +1,8 @@
+Essa é uma mensagem com o método write()
+Isso é para mostrar que também posso colocar mensagens em uma variavel e depois escrever ela no arquivo
+Nota importante, esse comando vai subescrever tudo que ja estiver no arquivo,
+ ou seja apaga tudo que já estava escrito antes e escreve essa nova mensagem.
+Esse é um exemplo de como adicionar algo a um arquivo já existente.
+Ele não apaga nada, apenas adiciona o que você colocar depois do 'a' no open()
+E o 'w' apaga tudo que já estava escrito antes.
+Então cuidado com o que você vai usar!

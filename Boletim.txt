@@ -1,0 +1,10 @@
+Matem�tica: 7.5
+Portugu�s: 8.0
+Hist�ria: 6.5
+Geografia: 7.0
+Ci�ncias: 9.0
+Educa��o F�sica: 8.5
+Artes: 7.0
+Ingl�s: 8.0
+F�sica: 9.5
+Qu�mica: 10.0
