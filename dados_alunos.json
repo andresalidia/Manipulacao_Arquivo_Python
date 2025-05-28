@@ -1,0 +1,22 @@
+{
+  "alunos": [
+    {
+      "Matricula": 123456,
+      "nome": "Jo\u00e3o",
+      "idade": 20,
+      "curso": "Engenharia"
+    },
+    {
+      "Matricula": 789012,
+      "nome": "Maria",
+      "idade": 22,
+      "curso": "Medicina"
+    },
+    {
+      "Matricula": 345678,
+      "nome": "Pedro",
+      "idade": 21,
+      "curso": "Direito"
+    }
+  ]
+}
