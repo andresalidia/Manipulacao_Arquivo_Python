@@ -1,0 +1,33 @@
+{
+  "alunos": [
+    {
+      "nome": "Carlos Henrique Souza",
+      "matricula": "20230002",
+      "data_nascimento": "2005-09-22",
+      "notas": {
+        "Matemática": 6.0,
+        "Português": 7.5,
+        "História": 8.0
+      },
+      "faltas": 4
+    },
+    {
+      "nome": "Fernanda Lima Rocha",
+      "matricula": "20230003",
+      "data_nascimento": "2006-01-30",
+      "notas": {
+        "Matemática": 9.5,
+        "Português": 9.2,
+        "História": 9.0
+      },
+      "faltas": 0
+    },
+    {
+      "nome": "Faustino",
+      "matricula": "20250003",
+      "data_nascimento": "05/12/2004",
+      "notas": {},
+      "faltas": 0
+    }
+  ]
+}

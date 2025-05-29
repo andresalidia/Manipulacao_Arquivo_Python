@@ -11,3 +11,21 @@ with open("dados.csv", "r", encoding="utf-8") as arquivo:
     leitor = csv.reader(arquivo)  # Cria um objeto leitor para ler o arquivo CSV
     for linha in leitor:
         print(linha)  # Imprime cada linha do arquivo CSV como uma lista    
+
+
+
+with open("alunos.csv", "w", newline='', encoding = "utf-8" ) as arquivo:
+    escritor = csv.writer(arquivo)
+
+    escritor.writerow(["Nome", "Idade", "Nota"])
+    escritor.writerow(["João","14",8.5])
+    escritor.writerow(["João","14",8.5])
+    escritor.writerow(["João","14",8.5])
+
+with open("alunos.csv", "r", encoding="utf-8") as arquivo:
+    leitor= csv.reader(arquivo)
+    for linhas in leitor:
+        print(linhas) 
+
+
+

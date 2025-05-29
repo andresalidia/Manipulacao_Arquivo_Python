@@ -39,3 +39,21 @@ with open('dados_alunos.json', 'r') as arquivo:
 
 # ou lendo o arquivo json e exibindo os dados  da forma de de um objeto json
     print(json.dumps(dados_lidos, indent=2, ensure_ascii=False))  # Exibe o JSON formatado
+
+
+
+
+dicionario = { "nome": "Maria", 
+              "idade":25 
+              }
+
+with open('dados.json', 'w') as arquivo:
+    json.dump(dicionario, arquivo, indent=2, ensure_ascii=False)  # Escreve o dicionário no arquivo JSON
+    print("Arquivo JSON criado com sucesso!")
+
+with open('dados.json', 'r') as arquivo:
+    dados_lidos = json.load(arquivo)  # Lê o conteúdo do arquivo JSON
+    print("Dados lidos do arquivo JSON:")
+    for chave, valor in dados_lidos.items():  # Percorre o dicionário lido
+        print(f"{chave}: {valor}")  
+# ou lendo o arquivo json e exibindo os dados  da forma de de um objeto json
